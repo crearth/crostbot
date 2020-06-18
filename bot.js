@@ -59,10 +59,34 @@ function onMessageHandler (target, context, msg, self) {
 
   // f
   if (commandName === 'f') {
-    client.say(target, 'sukkelaar');
-    console.log(`* Executed ${commandName}`)
+    client.say(target, 'f');
+    console.log(`* Executed ${commandName}`);
   }
   
+  // hype
+  if (commandName === 'hype') {
+    client.say(target, 'hype');
+    console.log(`* Executed ${commandName}`);
+  }
+
+  // bon
+  if (commandName === 'bon') {
+    client.say(target, 'ja');
+    console.log(`* Executed ${commandName}`);
+  }
+
+  // play
+  if (commandName === '!playboys') {
+    client.say(target, '!play');
+    console.log(`* Executed ${commandName}`);
+  }
+
+  // tabel van madel
+  if (commandName === 'de tabel van madel') {
+    client.say(target, 'Tabel was juist hé?');
+    console.log(`* Executed ${commandName}`);
+  }
+
 }
 
 // aantal bedjes berekenen
